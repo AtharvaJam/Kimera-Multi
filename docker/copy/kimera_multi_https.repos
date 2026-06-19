@@ -58,7 +58,7 @@ repositories:
   kimera_pgmo:
     type: git
     url: https://github.com/MIT-SPARK/Kimera-PGMO.git
-    version: master
+    version: main
   kimera_ros:
     type: git
     url: https://github.com/MIT-SPARK/Kimera-VIO-ROS.git
@@ -105,8 +105,16 @@ repositories:
     version: master
   opengv_catkin:
     type: git
-    url: https://github.com/nathanhhughes/opengv_catkin.git
-    version: fix/march_native_optional
+    url: https://github.com/ToniRV/opengv_catkin.git
+    version: master
+  config_utilities:
+    type: git
+    url: https://github.com/MIT-SPARK/config_utilities.git
+    version: archive/ros_noetic
+  spatial_hash:
+    type: git
+    url: https://github.com/MIT-SPARK/Spatial-Hash.git
+    version: main
   pose_graph_tools:
     type: git
     url: https://github.com/MIT-SPARK/pose_graph_tools.git
